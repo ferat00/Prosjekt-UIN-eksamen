@@ -1,0 +1,348 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+  
+}
+main {
+  background-color: rgb(255, 255, 255);
+  padding: 24px 0 100px 35px;
+  
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  #error,#success, #ingen {
+    display: none;
+  }
+
+  /* navigasjon */
+  .h3{
+    color: black;
+    margin: 10px 0 0 40px;
+  }
+  .tjeneste-h2{
+    margin-bottom: 20px;
+    font-size: xx-large;
+  }
+  .ny{
+    background-color: darkcyan; 
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    
+  }
+  .tjenester{
+    list-style-type: none; 
+    color: black;
+  }
+  .tjeneste-header{
+    margin-bottom: 20px;
+  }
+  .input-tjenester{
+    margin-bottom: 0.5rem;
+    padding: 7px 25px 7px 25px;
+    align-items: center;
+    border-radius: 5px;
+   }
+  nav{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 30px;
+  }
+
+  nav a{
+    text-decoration: none;
+  }
+  ul{
+    display: flex;
+    gap: 1rem;
+    margin: 0 50px 0 0;
+    flex-direction: column;
+  }
+
+  /* Hero */
+  .navHero{
+    background-color: #ebf0f4;
+    padding-left: 0;
+  }
+
+  img{
+    width: 30%;
+    margin: 0 100px 50px 223px ;
+  }
+  
+.CEO{
+  font-weight: 900;
+  margin: 40px 0 0 40px ;
+  
+}
+
+.section-hero{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+.tekst{
+  font-size: medium ;
+  margin: 0 0 30px 30px;
+}
+cite, span{
+  display:block;
+}
+
+/* Single box */
+.singlebox{
+  width:85%;
+
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.slogan{
+  font-size: x-large;
+}
+.singleCEO{
+  font-weight: 900;
+  margin: 10px 0 50px 0;
+}
+.singlep{
+  margin-bottom: 20px ;
+  font-weight: 600;
+}
+.title{
+  margin-bottom: 10px;
+}
+.portable{
+  background-color: #d3d3d3;
+  margin-top: 20px;
+  padding: 60px 25px 60px 25px;
+}
+/* Box article */
+
+.boxArticle{
+  width: 18vw;
+  min-width: 150px;
+  padding: 22px;
+  
+}
+.boxArticle a{
+  font-weight: bold;
+}
+.boxArticle h3{
+  font-size: 140%;
+}
+.card-tekst{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.tilTjeneste{
+  text-decoration: underline;
+}
+/* filter */
+.filter{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+  
+@media screen and (min-width: 600px) {
+    /* Alt under er for navigasjon */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  flex-direction: row;
+
+}
+.navHero{
+  background-color: #ebf0f4;
+}
+
+
+ul{
+  display: flex;
+  gap: 1rem;
+  margin: 25px 50px 0 0;
+  flex-direction: row;
+}
+
+.h3{
+  margin-top: 25px;
+}
+
+.input-tjenester{
+ border-radius: 5px;
+ margin-bottom: 0.5rem;
+ 
+}
+
+/* HERO */
+.CEO{
+  font-weight: 900;
+  margin: 0 0 0 40px !important;
+  
+}
+img{
+  width: 30%;
+  margin: 0 100px 50px 0 ;
+}
+.section-hero{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* margin-left: 5%; */
+}
+.tekst{
+  font-size: x-large ;
+  margin: 0 0 30px 35px;
+}
+
+.main-content{
+  flex-direction: row;
+}
+/* Single box */
+.singlebox{
+  width:50%;
+}
+.footer{
+  justify-content: space-between;
+  margin: 0 35px 10px 35px;
+  flex-direction: row;
+  }
+ 
+}
+
+ /* ny tjeneste css */
+
+ .style {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;    
+}
+
+form {
+  display: grid;
+
+}
+
+label {
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+
+
+ }
+
+ h1 {
+  font-size: 30px;
+}
+
+#error,#success, #ingen {
+  display: none;
+}
+
+.style {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;    
+}
+
+form {
+  display: grid;
+
+}
+
+label {
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+
+
+}
+
+input {
+  border: 1px solid;
+background-color: #f0f0f0;
+border-radius: 5px;
+width: 20rem;
+height: 1.5rem;
+margin-bottom: 10px;
+padding: 3px;
+}
+
+button {
+  color: white;
+  border: 1px solid;
+  background-color:#29a279;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 38px;
+  
+}
+
+select {
+border: 1px solid;
+background-color:#f0f0f0;
+border-radius: 5px;
+width: 20rem;
+height: 1.5rem;
+margin-bottom: 20px;
+
+}
+
+.textCEO {
+  font-weight: 900;
+  font-size: small;
+  margin-bottom: 40px
+}
+
+.textlage {
+  font-size: x-large;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
